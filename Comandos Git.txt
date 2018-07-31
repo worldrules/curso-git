@@ -1,0 +1,41 @@
+
+// puxa para sua máquina o repositorio do local especificado
+
+git clone https://github.com/jcfonsecagit/repositorio.git
+
+
+// verifica quantas e quais versoes tem no projeto
+
+git tag
+
+
+// troca o seu repositorio pro estado atual que estava na versao x
+
+git checkout v0.1
+
+// verifica as diferencas entre as versoes x e y
+
+git diff v0.1 v0.2
+
+// cria pasta
+mkdir
+
+// volta pasta
+
+cd \
+
+// entra na pasta
+
+cd
+
+// verifica quais os arquivos estao sendo controlados
+
+git ls-files
+
+// verifica o status do git na pasta
+
+git status
+
+// adiciona o arquivo no controle do git
+
+git add index.html
