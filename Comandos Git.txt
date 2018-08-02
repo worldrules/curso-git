@@ -38,4 +38,22 @@ git status
 
 // adiciona o arquivo no controle do git
 
-git add index.html
+git add "index.html"
+
+// adiciona um commit e diz uma mensagem
+
+git commit -m "Criando Projeto"
+
+// Configura nome e email de quem ta fazendo
+
+git Config user.name --global "Leonardo Carvalho"
+git Config user.email --global "Leonardo Carvalho"
+
+// Adiciona um diretorio
+
+git add "nomeDoDiretorio"
+
+
+// Verifica os detalhes de todos arquivos
+
+git whatchanged (-p)
