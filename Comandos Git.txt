@@ -57,3 +57,17 @@ git add "nomeDoDiretorio"
 // Verifica os detalhes de todos arquivos
 
 git whatchanged (-p)
+
+
+// Comando para alinhar o remoto para onde sera espelhado
+
+git remote ()
+git remote add origin 
+
+// Comando para mandar todas alterações e pra qual repositorio
+
+git push
+git push origin master  // parametros: nome do repositorio, nome da branch
+
+q -> fecha o lixo
+
