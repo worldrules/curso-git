@@ -71,3 +71,7 @@ git push origin master  // parametros: nome do repositorio, nome da branch
 
 q -> fecha o lixo
 
+// verifica quais branchs estao no git ou cria uma se passar parametros
+
+git branch
+git branch (nome da branch)
